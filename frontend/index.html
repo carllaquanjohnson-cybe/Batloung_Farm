@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090d0b"><title>Batloung Farm | Fresh Produce Distribution</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="app.css"></head><body>
+<header class="topbar"><a class="brand" href="#/store"><span class="brand-icon">✦</span><span>BATLOUNG<span class="brand-accent"> FARM</span><small>FRESH PRODUCE DISTRIBUTION</small></span></a>
+<button class="mobile-menu" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<nav id="nav" aria-label="Main navigation"></nav><div class="top-actions" id="auth-chrome"><a href="#/login" class="login-chip">Sign in</a></div></header>
+<div class="page-progress" id="page-progress"></div>
+<main id="view" aria-live="polite"></main>
+<div id="toast" role="status"></div>
+<div class="float-actions" aria-label="Quick actions"><button id="whatsapp-button" type="button" class="float-whatsapp" title="Contact us on WhatsApp" aria-label="Contact Batloung Farm on WhatsApp"><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" fill="currentColor"><path d="M16 .7C7.57.7.7 7.5.7 15.9c0 2.7.72 5.34 2.07 7.67L.5 31.5l8.12-2.12a15.2 15.2 0 0 0 7.35 1.88h.03c8.42 0 15.27-6.84 15.3-15.25A15.2 15.2 0 0 0 16 .7zm0 27.98h-.03a12.66 12.66 0 0 1-6.44-1.75l-.46-.27-4.82 1.26 1.29-4.7-.3-.49a12.67 12.67 0 1 1 10.76 5.95zm6.95-9.5c-.38-.19-2.26-1.11-2.61-1.24-.35-.13-.6-.19-.85.19-.25.38-.98 1.24-1.2 1.49-.22.25-.44.28-.82.09-.38-.19-1.59-.59-3.02-1.87-1.11-.99-1.86-2.22-2.08-2.6-.22-.38-.02-.58.17-.77.17-.17.38-.44.57-.66.19-.22.25-.38.38-.63.13-.25.06-.47-.03-.66-.1-.19-.85-2.05-1.17-2.8-.31-.73-.63-.63-.85-.64h-.73c-.25 0-.66.09-1.01.47-.35.38-1.33 1.3-1.33 3.17s1.36 3.67 1.55 3.92c.19.25 2.67 4.08 6.47 5.72.9.39 1.6.62 2.14.79.9.29 1.72.25 2.37.15.72-.11 2.26-.92 2.58-1.81.32-.89.32-1.66.22-1.81-.09-.16-.34-.25-.72-.44z"/></svg><span class="float-tooltip">Chat on WhatsApp</span></button><a href="#/sell" class="float-add" id="float-staff-add" style="display:none" title="Record a sale" aria-label="Record a sale">＋</a><button id="back-top" title="Back to top" aria-label="Back to top">↑</button></div>
+<footer class="site-footer"><span>✦ BATLOUNG FARM</span><span>From the finest growers to Lesotho's markets. · Maseru, Lesotho</span><span>All prices in Maloti (M)</span></footer>
+<script src="site-config.js"></script><script src="supplier-map.js"></script><script src="auth-pages.js"></script><script src="app.js"></script></body></html>
